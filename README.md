@@ -23,7 +23,7 @@
 The Codechef College_Ranklist extension is designed to make it easy for the programmers to get to the ranklist of their college in just one click. The CodeChef design really makes it a time taking process for a programmer to get to his/her college ranklist and compare with his/her college mates. Using this extension, you can easily open the ranklist for your college directly from the Contest's page for that perticular contest, or you can see the overall ranking from anywhere. The ranks get opened in a new seperate tab so that your workflow on current window doesn't gets interrupted.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
- 1. To get the extension, download the extension by clicking <a src="">here</a>.
+ 1. To get the extension, download the extension by clicking <a href="extension/Codechef College_Ranklist.crx" download>here</a>.
  2. Once downloaded, keep the extension in a safe place where you wont mistakenly delete it.
  3. Open Chrome Browser and type in search bar ```chrome://extensions/```.
  4. Drag and drop the extension you just downloaded in this window.
