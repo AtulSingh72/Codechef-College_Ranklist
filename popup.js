@@ -1,6 +1,6 @@
 chrome.storage.sync.get(["college"], function(items) {
-    document.getElementById("college").value = items.college;
-    var data = items;
+    if(items.college == undefined) document.getElementById("college").value = "";
+    else document.getElementById("college").value = items.college;
 });
 
 document.getElementById("submit").addEventListener("click", function() {
