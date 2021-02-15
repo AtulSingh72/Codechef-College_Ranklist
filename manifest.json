@@ -5,5 +5,8 @@
     "description" : "An extension to open college ranklist from contest page.",
     "action" : {
         "default_popup" : "popup.html"
-    }
+    },
+    "permissions": [
+        "tabs"
+    ]
 }
