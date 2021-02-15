@@ -8,7 +8,9 @@ document.getElementById("submit").addEventListener("click", function() {
         var contest = current_url.split("?")[0];
         college_name.replace(" ", "%20");
         college_name.replace(",", "%2C");
+        contest = contest.substring(0, contest.lastIndexOf("/")) + "/rankings" + contest.substring(contest.lastIndexOf("/"))
         var ranking = contest + "?filterBy=Institution%3D" + college_name + "&order=asc&sortBy=rank";
         // console.log(ranking);
+        
     });
 });
