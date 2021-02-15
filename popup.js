@@ -23,3 +23,16 @@ document.getElementById("submit").addEventListener("click", function() {
         });
     });
 });
+
+document.getElementById('overall').addEventListener('click', function() {
+    var college_name = document.getElementById("college").value;
+
+    // save college name to memory
+    chrome.storage.sync.set({"college" : college_name}, function() {
+        // Overall URL 👉 https://www.codechef.com/ratings/all?filterBy=Institution%3DNational%20Institute%20of%20Technology%2C%20Manipur&order=asc&sortBy=global_rank
+        college_name.replace(" ", "%20");
+        college_name.replace(",", "%2C");
+        var ranking = "https://www.codechef.com/ratings/all?filterBy=Institution%3D" + college_name + "&order=asc&sortBy=global_rank";
+        chrome.tabs.create({url : ranking});
+    })
+});
