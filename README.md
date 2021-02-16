@@ -4,7 +4,6 @@
 </p>
 
 <h2 align="center">Codechef College_Ranklist (Chrome Extension)</h2>
-<h3 align="center"><a href="extension/unpacked.zip" download>Downlaod extension now</a></h3>
 
 ---
 
